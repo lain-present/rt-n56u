@@ -121,7 +121,7 @@ sh dl_toolchain.sh
 * (可选) 修改机型配置文件
 
 ```shell
-nano /opt/rt-n56u/trunk/configs/templates/PSG1218.config
+nano /opt/rt-n56u/trunk/configs/templates/RM2100.config
 ```
 
 * 清理代码树并开始编译
@@ -129,7 +129,7 @@ nano /opt/rt-n56u/trunk/configs/templates/PSG1218.config
 ```shell
 cd /opt/rt-n56u/trunk
 ./clear_tree
-fakeroot ./build_firmware_modify PSG1218
+fakeroot ./build_firmware_modify RM2100
 # 脚本第一个参数为路由型号，在trunk/configs/templates/中
 # 编译好的固件在trunk/images里
 ```
